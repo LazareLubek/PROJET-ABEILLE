@@ -54,6 +54,7 @@ https://are00dynamic-2018.github.io/PROJET-ABEILLE/
 ![image](http://nicolas.blogs.com/.a/6a00d83455b58069e20115721bba3b970b-pi)
  
 - Nous avons crée des fonctions qui permettent d'observer le comportement des abeilles sur plusieurs années.
+- Nous allons également modélisé l'évolution en prenant en compte la présence de prédateurs, comme le frelon asiatique. En effet, on estime que 10 frelons asiatiques peuvent détruire une ruche entière. Afin d'éviter que la ruche ne sois détruite trop vite, on considérera la présence de frelons asiatiques avec une probabilité très faible (entre 1% et 10%). On considérera qu'il s'attaque plus aux abeilles qui sortent mais peut très bien tenter d'attaquer la ruche elle-même et tuer quelques males. Cependant, si leur nombre dépasse 10, alors on considère que la ruche est décimée.
 
 Après avoir fini de modéliser la population il est temps de s'intéresser aux effets des pesticides sur celle-ci:
 On définit 3 paramètres pour le pesticide et 3 paramètre pour les abeilles que l'on compte faire varier dans nos modèles,  à savoir :
@@ -89,4 +90,4 @@ Nous testerons ensuite la proportion des abeilles mortes par rapport aux abeille
 - https://www.futura-sciences.com/planete/dossiers/zoologie-abeilles-accueillir-ruche-chez-soi-976/page/10/
 - https://catoire-fantasque.be/cycle-de-developpement-abeilles/
 - http://www.apivet.eu/2009/07/le-cycle-dune-colonie-dabeille-et-les-influences-externes.html
-
+- https://www.consoglobe.com/le-frelon-asiatique-le-predateur-de-nos-abeilles-cg/2
