@@ -49,7 +49,7 @@ https://are00dynamic-2018.github.io/PROJET-ABEILLE/
     
   En effet , on remarque que la population d'une ruche peut être modelisée par la suite de _**Fibonacci**._ étant donné qu'à chaque génération , les nombres de femelles et de mâles sont deux nombres consécutifs de cette suite. On peut démontrer mathématiquement que la limite du rapport entre **F_(n+1) et F_n est le nombre d'or (~1,618)**.On comprend donc que le rapport entre les mâle et femelles est environ égale au nombre d'or. Et étant donné qu'on parle d'une ruche qui possède au minimum 10 000 abeilles (soit 4000 mâles et 6000 femelles environ) , c'est à dire environ F_19 et F_20 le rapport entre les deux est assez proche pour approximer dans notre modèle, l'évolution de la population en se servant du coefficient du nombre d'or plutôt que de definir la suite en elle-même qui demanderait beaucoup plus de puissance à notre ordinateur.
    
-![image](http://www.lenombredor.free.fr/nature_fichiers/image021.jpg)
+![image](https://www.google.fr/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi__87iqKPaAhUBNhQKHWhdCssQjRx6BAgAEAU&url=http%3A%2F%2Fmathematiques-insolites.blogspot.com%2F2010%2F04%2Fla-suite-de-fibonacci-2-ou-comment.html&psig=AOvVaw1iBWxaagv2JKKCitHs4-_Y&ust=1523024025577945)
 Cette image est issue du site suivant :
 http://www.lenombredor.free.fr/nature_fichiers/image021.jpg
 
@@ -151,7 +151,7 @@ A partir de ces abeilles touchées , on prélèvera un certain nombre d'abeilles
 On etudira d'abord :
 
   
-  D'après les paramètres sités ci-dessus, on peut calculer le nombre d'abeilles touchées. En effet on a **le nombre d'abeilles resistantes touchées** qui est alpha de porte du nombre de population totale d'ouvrière. En d'autre terme la portée de la population qui est touchée par le pesticude. On affinera à _**+/- 10%**_. **Le nombre d'abeilles non resistantes** est simplement le nombre total d'ouvrières moins le nombre  d'abeilles resistantes touchées, tours affiner à *+/- 10%*.
+  D'après les paramètres sités ci-dessus, on peut calculer le nombre d'abeilles touchées. En effet on a **le nombre d'abeilles resistantes touchées** qui est alpha de porte du nombre de population totale d'ouvrière. En d'autre terme la portée de la population qui est touchée par le pesticude. On affinera à _**+/- 1%**_. **Le nombre d'abeilles non resistantes** est simplement le nombre total d'ouvrières moins le nombre  d'abeilles resistantes touchées, tours affiner à *+/- 1%*.
   **Ici on a utilisé le paramètre alpha qui correspond à la proportion de la population qui résiste.**
    
     '''
